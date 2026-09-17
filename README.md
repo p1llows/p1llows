@@ -89,13 +89,15 @@ Check out my portfolio to learn more about me, my work, and the technologies I u
 
 ---
 
-## 📊 GitHub
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=p1llows&show_icons=true&theme=transparent&hide_border=true" />
+<img src="./profile/stats.svg" alt="Jewel's GitHub Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p1llows&layout=compact&theme=transparent&hide_border=true" />
+<br />
+
+<img src="./profile/top-langs.svg" alt="Jewel's Top Languages" />
 
 </div>
 
