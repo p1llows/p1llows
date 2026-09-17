@@ -1,6 +1,6 @@
 # 👋 Hey, I'm Jewel Ramirez
 
-### Full-Stack Web Developer
+### Full-Stack Web Developer | Software Engineer
 
 I’m a developer focused on building **modern, scalable, and user-friendly web applications**. I enjoy turning ideas into practical products, improving existing systems, and exploring new technologies.
 
