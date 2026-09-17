@@ -93,9 +93,9 @@ Check out my portfolio to learn more about me, my work, and the technologies I u
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=p1llows\&show_icons=true\&theme=transparent\&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api?username=p1llows&show_icons=true&theme=transparent&hide_border=true" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=p1llows\&layout=compact\&theme=transparent\&hide_border=true)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=p1llows&layout=compact&theme=transparent&hide_border=true" />
 
 </div>
 
