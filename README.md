@@ -192,11 +192,7 @@ Short description of the problem it solves.
 
 <br />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&theme=tokyo-night&hide_border=true&bg_color=00000000&area=true" alt="Contribution activity graph" />
-
-<br />
-
-<img src="https://github-profile-trophy.vercel.app/?username=p1llows&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" alt="GitHub trophies" />
+<img src="https://ghchart.rshah.org/7C3AED/p1llows" alt="Jewel's contribution calendar" />
 
 </div>
 
