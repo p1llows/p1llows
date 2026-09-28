@@ -165,12 +165,14 @@ My personal portfolio and the best place to see my work.
 </td>
 <td width="50%" valign="top">
 
-### 🍰 Dessert Diaries
+### 🍰 [Dessert Diaries](https://dessert-diaries.vercel.app/)
 **A recipe sharing platform**
 Share recipes and connect with other food lovers.
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+
+[🔗 Live site](https://dessert-diaries.vercel.app/)
 
 </td>
 </tr>
