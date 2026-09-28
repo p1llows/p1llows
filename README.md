@@ -55,11 +55,11 @@ const jewel = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=php,laravel,js,ts,html,css&theme=dark" alt="Languages" />
+<img src="https://skillicons.dev/icons?i=php,laravel,js,ts,nodejs,express,html,css&theme=dark" alt="Languages and backend" />
 <br />
 <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,tailwind&theme=dark" alt="Frontend" />
 <br />
-<img src="https://skillicons.dev/icons?i=mysql,mariadb,redis,supabase&theme=dark" alt="Databases" />
+<img src="https://skillicons.dev/icons?i=mysql,mariadb,postgres,mongodb,redis,supabase&theme=dark" alt="Databases" />
 <br />
 <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,cloudflare&theme=dark" alt="Infrastructure" />
 
@@ -81,9 +81,12 @@ const jewel = {
 
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![Filament](https://img.shields.io/badge/Filament-FDAE4B?style=flat-square&logo=laravel&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
@@ -91,6 +94,8 @@ const jewel = {
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
@@ -122,17 +127,37 @@ flowchart LR
 
 ## 📌 Featured Projects
 
-> Replace the placeholder cards with your best work: one line on what it does, one on the stack.
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌐 [Portfolio](https://jewelramirez.vercel.app/)
+### 🧠 NL2SQLViz
+**A Natural Language-to-Visualization System**
+Turn plain-language questions into SQL and charts for data analysis and visualization.
+
+![Vue](https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white)
+![Quasar](https://img.shields.io/badge/Quasar-1976D2?style=flat-square&logo=quasar&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤝 CSMS
+**Community Service Monitoring System**
+A community service management system for tracking and managing community service activities.
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 [Portfolio Website](https://jewelramirez.vercel.app/)
+**Showcasing my projects and skills**
 My personal portfolio and the best place to see my work.
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 [🔗 Live site](https://jewelramirez.vercel.app/)
@@ -140,42 +165,32 @@ My personal portfolio and the best place to see my work.
 </td>
 <td width="50%" valign="top">
 
-### 🔧 Project Name
-Short description of the problem it solves.
+### 🍰 Dessert Diaries
+**A recipe sharing platform**
+Share recipes and connect with other food lovers.
 
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-[🔗 Repo](https://github.com/p1llows) · [🚀 Demo](#)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔧 Project Name
-Short description of the problem it solves.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-
-[🔗 Repo](https://github.com/p1llows) · [🚀 Demo](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 Project Name
-Short description of the problem it solves.
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-[🔗 Repo](https://github.com/p1llows) · [🚀 Demo](#)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+[**See all projects on my portfolio →**](https://jewelramirez.vercel.app/)
+
+</div>
+
+---
+
+## 🎓 Education & Certifications
+
+**BS Computer Science** · Don Mariano Marcos Memorial State University, South La Union Campus · *2022 – 2026*
+
+![ITPEC IP Passport](https://img.shields.io/badge/ITPEC_IP_Passport-PhilNITS_Foundation-1976D2?style=flat-square&logo=quicklook&logoColor=white)
+![Scrum Foundation](https://img.shields.io/badge/Scrum_Foundation_Professional-CertiProf-0F766E?style=flat-square)
+![Intro to NLP](https://img.shields.io/badge/Intro_to_Natural_Language_Processing-Great_Learning-7C3AED?style=flat-square)
 
 ---
 
