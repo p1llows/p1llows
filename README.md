@@ -209,7 +209,7 @@ Share recipes and connect with other food lovers.
 
 <br />
 
-<img src="./profile/activity-graph.svg" alt="Activity Graph" />
+<img src="https://ghchart.rshah.org/7C3AED/p1llows" alt="Jewel's contribution calendar" />
 
 </div>
 
