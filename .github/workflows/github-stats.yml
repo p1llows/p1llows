@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-github-stats
+  cancel-in-progress: false
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
@@ -32,25 +36,11 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate Activity Graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: ${{ github.repository_owner }}
-          options: theme=tokyo-night&hide_border=true
-          output_path: profile/activity-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "chore: update GitHub stats" || exit 0
+          git pull --rebase origin main
           git push
