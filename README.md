@@ -59,7 +59,7 @@ const jewel = {
 <br />
 <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,tailwind&theme=dark" alt="Frontend" />
 <br />
-<img src="https://skillicons.dev/icons?i=mysql,mariadb,postgres,mongodb,redis,supabase&theme=dark" alt="Databases" />
+<img src="https://skillicons.dev/icons?i=mysql,firebase,mariadb,postgres,mongodb,redis,supabase&theme=dark" alt="Databases" />
 <br />
 <img src="https://skillicons.dev/icons?i=docker,git,github,vercel,cloudflare&theme=dark" alt="Infrastructure" />
 
