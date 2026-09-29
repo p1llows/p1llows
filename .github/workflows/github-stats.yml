@@ -36,18 +36,17 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Streak Stats
-        uses: DenverCoder1/github-readme-streak-stats@main
-        with:
-          options: user=${{ github.repository_owner }}&background=00000000&hide_border=true&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED&currStreakNum=E5E7EB&sideNums=E5E7EB&sideLabels=E5E7EB&dates=9CA3AF
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Bust cache on live-hosted images
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          sed -i -E "s/(streak-stats\.demolab\.com[^\"]*[?&]cachebust=)[^\"&]*/\1${TODAY}/" README.md
+          sed -i -E "s/(ghchart\.rshah\.org[^\"]*[?&]cachebust=)[^\"&]*/\1${TODAY}/" README.md
 
       - name: Commit generated cards
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/*.svg README.md
           git commit -m "chore: update GitHub stats" || exit 0
           git pull --rebase origin main
           git push
