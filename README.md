@@ -205,7 +205,7 @@ Share recipes and connect with other food lovers.
 
 <br />
 
-<img src="./profile/streak.svg" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com?user=p1llows&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub streak" />
 
 <br />
 
