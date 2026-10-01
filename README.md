@@ -203,11 +203,11 @@ Share recipes and connect with other food lovers.
 <img src="./profile/stats.svg" alt="Jewel's GitHub Stats" />
 <img src="./profile/top-langs.svg" alt="Jewel's Top Languages" />
 
-<img src="https://streak-stats.demolab.com?user=p1llows&theme=tokyonight&hide_border=true&background=00000000&_=2026-09-29" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=p1llows&theme=tokyonight&hide_border=true&background=00000000&_=2026-10-01" alt="GitHub streak" />
 
 <br />
 
-<img src="https://ghchart.rshah.org/7C3AED/p1llows?_=2026-09-29" alt="Jewel's contribution calendar" />
+<img src="https://ghchart.rshah.org/7C3AED/p1llows?_=2026-10-01" alt="Jewel's contribution calendar" />
 
 </div>
 
