@@ -39,8 +39,8 @@ jobs:
       - name: Bust cache on live-hosted images
         run: |
           TODAY=$(date +%Y-%m-%d)
-          sed -i -E "s/(streak-stats\.demolab\.com[^\"]*[?&]cachebust=)[^\"&]*/\1${TODAY}/" README.md
-          sed -i -E "s/(ghchart\.rshah\.org[^\"]*[?&]cachebust=)[^\"&]*/\1${TODAY}/" README.md
+          sed -i -E "s/(streak-stats\.demolab\.com[^\"]*[?&]_=)[^\"&]*/\1${TODAY}/" README.md
+          sed -i -E "s/(ghchart\.rshah\.org[^\"]*[?&]_=)[^\"&]*/\1${TODAY}/" README.md
 
       - name: Commit generated cards
         run: |
