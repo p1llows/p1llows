@@ -211,6 +211,10 @@ Share recipes and connect with other food lovers.
 
 <img src="https://ghchart.rshah.org/7C3AED/p1llows?_=2026-11-05" alt="Jewel's contribution calendar" />
 
+<br />
+
+<img src="https://raw.githubusercontent.com/p1llows/p1llows/output/github-contribution-grid-snake.svg?_=2026-11-06" alt="Jewel's contribution snake" width="100%" />
+
 </div>
 
 ---
