@@ -20,27 +20,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Stats
+      - name: Generate GitHub Stats (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&hide_border=true
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=8b949e&icon_color=e6edf3
+          path: profile/stats-dark.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Top Languages
+      - name: Generate GitHub Stats (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&bg_color=00000000&title_color=0d1117&text_color=57606a&icon_color=0d1117
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&theme=transparent&hide_border=true
-          path: profile/top-langs.svg
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=8b949e
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0d1117&text_color=57606a
+          path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Bust cache on live-hosted images
         run: |
           TODAY=$(date +%Y-%m-%d)
-          sed -i -E "s/(streak-stats\.demolab\.com[^\"]*[?&]_=)[^\"&]*/\1${TODAY}/" README.md
-          sed -i -E "s/(ghchart\.rshah\.org[^\"]*[?&]_=)[^\"&]*/\1${TODAY}/" README.md
           sed -i -E "s#(p1llows/p1llows/output/[^\"]*[?&]_=)[^\"&]*#\1${TODAY}#" README.md
 
       - name: Commit generated cards
