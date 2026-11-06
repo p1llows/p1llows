@@ -227,15 +227,17 @@ Share recipes and connect with other food lovers.
 
 ## 📫 Let's Connect
 
-I'm open to collaborations, feedback, and interesting web projects.
+I'm open to collaborations, feedback, and interesting web projects. My inbox is always open.
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://jewelramirez.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p1llows)
+[![Email](https://img.shields.io/badge/jewelramirez.dev%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jewelramirez.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/jewel--r-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jewel-r/)
+[![Facebook](https://img.shields.io/badge/jewell.r-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/jewell.r)
 
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" alt="Footer wave" />
+[![Portfolio](https://img.shields.io/badge/jewelramirez.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://jewelramirez.vercel.app/)
+[![GitHub](https://img.shields.io/badge/p1llows-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/p1llows)
 
 </div>
