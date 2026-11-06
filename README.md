@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Jewel%20Ramirez&fontSize=62&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Web%20Developer%20%C2%B7%20Baguio%20City%2C%20PH&descSize=18&descAlignY=58" alt="Jewel Ramirez banner" />
+# Jewel Ramirez
+
+**Full-Stack Web Developer** · 📍 Baguio City, PH · [jewelramirez.vercel.app](https://jewelramirez.vercel.app/)
 
 <a href="https://jewelramirez.vercel.app/">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=A78BFA&center=true&vCenter=true&width=640&lines=Building+modern+web+apps+%F0%9F%9A%80;Laravel+%2B+React+%2B+Next.js+%E2%9A%A1;Exploring+AI-assisted+development+%F0%9F%A4%96;Build.+Learn.+Improve.+Repeat." alt="Typing animation" />
