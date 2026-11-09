@@ -108,7 +108,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&bg_color=00000000&color=0d1117&line=57606a&point=0d1117&area=true&area_color=f6f8fa&hide_border=true&radius=8&custom_title=CONTRIBUTION%20TELEMETRY" width="98.5%" alt="GitHub contribution activity"/>
 </picture>-->
 
-<br/><br/>
+<br/>
 
 <img src="https://raw.githubusercontent.com/p1llows/p1llows/output/github-contribution-grid-snake.svg?_=2026-11-09" width="100%" alt="GitHub contribution grid snake"/>
 
