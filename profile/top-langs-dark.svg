@@ -8,7 +8,7 @@
   aria-labelledby="descId"
 >
   <title id="titleId">Jewel Ramirez&#39;s Most Used Languages</title>
-  <desc id="descId">TypeScript: 48.36%, PHP: 39.54%, Blade: 10.82%, CSS: 0.83%, JavaScript: 0.16%, Shell: 0.13%</desc>
+  <desc id="descId">TypeScript: 47.22%, PHP: 38.60%, Blade: 10.57%, JavaScript: 2.53%, CSS: 0.81%, Shell: 0.13%</desc>
   <style>
     .header {
       font: 600 18px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
@@ -44,11 +44,11 @@
       <rect x="0" y="0" width="417" height="8" rx="4" />
     </clipPath>
     <g clip-path="url(#lang-bar-clip-dark)">
-      <rect x="0.0" y="0" width="201.7" height="8" fill="#e6edf3" />
-      <rect x="201.7" y="0" width="164.9" height="8" fill="#8b949e" />
-      <rect x="366.6" y="0" width="45.1" height="8" fill="#57606a" />
-      <rect x="411.7" y="0" width="3.5" height="8" fill="#484f58" />
-      <rect x="415.2" y="0" width="1.8" height="8" fill="#38404a" />
+      <rect x="0.0" y="0" width="196.9" height="8" fill="#e6edf3" />
+      <rect x="196.9" y="0" width="161.0" height="8" fill="#8b949e" />
+      <rect x="357.9" y="0" width="44.1" height="8" fill="#57606a" />
+      <rect x="402.0" y="0" width="10.6" height="8" fill="#484f58" />
+      <rect x="412.6" y="0" width="4.4" height="8" fill="#38404a" />
     </g>
   </g>
 
@@ -56,23 +56,23 @@
   <g transform="translate(25, 78)">
     <g transform="translate(0, 0)">
       <circle cx="5" cy="5" r="4.5" fill="#e6edf3" />
-      <text x="18" y="9" class="lang-name">TypeScript <tspan class="lang-pct">48.36%</tspan></text>
+      <text x="18" y="9" class="lang-name">TypeScript <tspan class="lang-pct">47.22%</tspan></text>
     </g>
     <g transform="translate(0, 24)">
       <circle cx="5" cy="5" r="4.5" fill="#8b949e" />
-      <text x="18" y="9" class="lang-name">PHP <tspan class="lang-pct">39.54%</tspan></text>
+      <text x="18" y="9" class="lang-name">PHP <tspan class="lang-pct">38.60%</tspan></text>
     </g>
     <g transform="translate(0, 48)">
       <circle cx="5" cy="5" r="4.5" fill="#57606a" />
-      <text x="18" y="9" class="lang-name">Blade <tspan class="lang-pct">10.82%</tspan></text>
+      <text x="18" y="9" class="lang-name">Blade <tspan class="lang-pct">10.57%</tspan></text>
     </g>
     <g transform="translate(0, 72)">
       <circle cx="5" cy="5" r="4.5" fill="#484f58" />
-      <text x="18" y="9" class="lang-name">CSS <tspan class="lang-pct">0.83%</tspan></text>
+      <text x="18" y="9" class="lang-name">JavaScript <tspan class="lang-pct">2.53%</tspan></text>
     </g>
     <g transform="translate(215, 0)">
       <circle cx="5" cy="5" r="4.5" fill="#38404a" />
-      <text x="18" y="9" class="lang-name">JavaScript <tspan class="lang-pct">0.16%</tspan></text>
+      <text x="18" y="9" class="lang-name">CSS <tspan class="lang-pct">0.81%</tspan></text>
     </g>
     <g transform="translate(215, 24)">
       <circle cx="5" cy="5" r="4.5" fill="#30363d" />
