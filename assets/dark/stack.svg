@@ -1,52 +1,52 @@
-<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="260" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+<svg width="860" height="280" viewBox="0 0 860 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <rect width="860" height="280" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
 
   <!-- Row 1: Languages -->
-  <g transform="translate(30, 42)">
+  <g transform="translate(30, 24)">
     <rect width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">LANGUAGES</text>
     <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      PHP <tspan fill="#484f58">·</tspan> TypeScript <tspan fill="#484f58">·</tspan> JavaScript <tspan fill="#484f58">·</tspan> SQL <tspan fill="#484f58">·</tspan> Bash <tspan fill="#484f58">·</tspan> HTML5 <tspan fill="#484f58">·</tspan> CSS3
+      PHP <tspan fill="#484f58">&#183;</tspan> TypeScript <tspan fill="#484f58">&#183;</tspan> JavaScript <tspan fill="#484f58">&#183;</tspan> SQL <tspan fill="#484f58">&#183;</tspan> Bash <tspan fill="#484f58">&#183;</tspan> HTML5 <tspan fill="#484f58">&#183;</tspan> CSS3
     </text>
   </g>
-  <line x1="30" y1="62" x2="830" y2="62" stroke="#161b22" stroke-width="1"/>
+  <line x1="30" y1="64" x2="830" y2="64" stroke="#161b22" stroke-width="1"/>
 
   <!-- Row 2: Backend -->
-  <g transform="translate(30, 92)">
+  <g transform="translate(30, 76)">
     <rect width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">BACKEND</text>
     <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      Laravel <tspan fill="#484f58">·</tspan> Node.js <tspan fill="#484f58">·</tspan> Express.js <tspan fill="#484f58">·</tspan> RESTful APIs <tspan fill="#484f58">·</tspan> Blade
+      Laravel <tspan fill="#484f58">&#183;</tspan> Node.js <tspan fill="#484f58">&#183;</tspan> Express.js <tspan fill="#484f58">&#183;</tspan> RESTful APIs <tspan fill="#484f58">&#183;</tspan> Blade
     </text>
   </g>
-  <line x1="30" y1="112" x2="830" y2="112" stroke="#161b22" stroke-width="1"/>
+  <line x1="30" y1="116" x2="830" y2="116" stroke="#161b22" stroke-width="1"/>
 
   <!-- Row 3: Frontend -->
-  <g transform="translate(30, 142)">
+  <g transform="translate(30, 128)">
     <rect width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">FRONTEND</text>
     <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      React <tspan fill="#484f58">·</tspan> Next.js <tspan fill="#484f58">·</tspan> Vue.js <tspan fill="#484f58">·</tspan> Quasar <tspan fill="#484f58">·</tspan> Tailwind CSS <tspan fill="#484f58">·</tspan> Vite
+      React <tspan fill="#484f58">&#183;</tspan> Next.js <tspan fill="#484f58">&#183;</tspan> Vue.js <tspan fill="#484f58">&#183;</tspan> Quasar <tspan fill="#484f58">&#183;</tspan> Tailwind CSS <tspan fill="#484f58">&#183;</tspan> Vite
     </text>
   </g>
-  <line x1="30" y1="162" x2="830" y2="162" stroke="#161b22" stroke-width="1"/>
+  <line x1="30" y1="168" x2="830" y2="168" stroke="#161b22" stroke-width="1"/>
 
   <!-- Row 4: Data -->
-  <g transform="translate(30, 192)">
+  <g transform="translate(30, 180)">
     <rect width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">DATA &amp; CACHE</text>
     <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      PostgreSQL <tspan fill="#484f58">·</tspan> MySQL <tspan fill="#484f58">·</tspan> MariaDB <tspan fill="#484f58">·</tspan> MongoDB <tspan fill="#484f58">·</tspan> Redis
+      PostgreSQL <tspan fill="#484f58">&#183;</tspan> MySQL <tspan fill="#484f58">&#183;</tspan> MariaDB <tspan fill="#484f58">&#183;</tspan> MongoDB <tspan fill="#484f58">&#183;</tspan> Redis
     </text>
   </g>
-  <line x1="30" y1="212" x2="830" y2="212" stroke="#161b22" stroke-width="1"/>
+  <line x1="30" y1="220" x2="830" y2="220" stroke="#161b22" stroke-width="1"/>
 
   <!-- Row 5: Infra -->
-  <g transform="translate(30, 242)">
+  <g transform="translate(30, 232)">
     <rect width="130" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
     <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">INFRA &amp; TOOLS</text>
     <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      Docker <tspan fill="#484f58">·</tspan> Git <tspan fill="#484f58">·</tspan> GitHub Actions <tspan fill="#484f58">·</tspan> Vercel <tspan fill="#484f58">·</tspan> Cloudflare
+      Docker <tspan fill="#484f58">&#183;</tspan> Git <tspan fill="#484f58">&#183;</tspan> GitHub Actions <tspan fill="#484f58">&#183;</tspan> Vercel <tspan fill="#484f58">&#183;</tspan> Cloudflare
     </text>
   </g>
 </svg>

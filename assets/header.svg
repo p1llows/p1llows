@@ -74,7 +74,7 @@
   </g>
 
   <!-- Subtitle -->
-  <text x="430" y="124" text-anchor="middle" style="font:500 12px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3.5px;fill:#57606a">FULL-STACK WEB DEVELOPER · BAGUIO CITY, PH</text>
+  <text x="430" y="124" text-anchor="middle" style="font:500 12px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3.5px;fill:#57606a">FULL-STACK WEB DEVELOPER &#183; BAGUIO CITY, PH</text>
 
   <!-- Tech pills along bottom -->
   <g transform="translate(195, 142)">

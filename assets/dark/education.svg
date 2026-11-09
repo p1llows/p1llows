@@ -6,16 +6,17 @@
       Bachelor of Science in Computer Science
     </text>
     <text x="0" y="38" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#8b949e">
-      Don Mariano Marcos Memorial State University — South La Union Campus (DMMMSU-SLUC) <tspan fill="#484f58">·</tspan> 2022 – 2026
+      Don Mariano Marcos Memorial State University &#8212; South La Union Campus (DMMMSU-SLUC) <tspan fill="#484f58">&#183;</tspan> 2022 &#8211; 2026
     </text>
   </g>
 
   <line x1="35" y1="88" x2="825" y2="88" stroke="#161b22" stroke-width="1"/>
 
   <g transform="translate(35, 110)">
-    <text x="0" y="15" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">CERTIFICATIONS</text>
-    <text x="135" y="15" style="font:500 12.5px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
-      ITPEC IP Passport <tspan fill="#484f58">·</tspan> Scrum Foundation Professional (SFPC™) <tspan fill="#484f58">·</tspan> Intro to NLP
+    <rect width="130" height="24" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <text x="65" y="16" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8b949e">CREDENTIALS</text>
+    <text x="145" y="16" style="font:500 12.5px ui-monospace,monospace;letter-spacing:0.5px;fill:#c9d1d9">
+      ITPEC IP Passport <tspan fill="#484f58">&#183;</tspan> Scrum Foundation Professional (SFPC&#8482;) <tspan fill="#484f58">&#183;</tspan> Intro to NLP
     </text>
   </g>
 </svg>
