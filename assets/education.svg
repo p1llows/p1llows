@@ -1,22 +1,49 @@
-<svg width="860" height="160" viewBox="0 0 860 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="160" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<svg width="860" height="220" viewBox="0 0 860 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <rect width="860" height="220" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
 
-  <g transform="translate(35, 30)">
-    <text x="0" y="16" style="font:700 16px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;letter-spacing:0.5px;fill:#0d1117">
-      Bachelor of Science in Computer Science
-    </text>
-    <text x="0" y="38" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#57606a">
-      Don Mariano Marcos Memorial State University &#8212; South La Union Campus (DMMMSU-SLUC) <tspan fill="#afb8c1">&#183;</tspan> 2022 &#8211; 2026
-    </text>
+  <!-- Academic Degree Section -->
+  <g transform="translate(25, 24)">
+    <rect width="115" height="24" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="57" y="16" text-anchor="middle" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">DEGREE</text>
+    
+    <g transform="translate(135, 0)">
+      <text x="0" y="17" style="font:700 16px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;letter-spacing:0.5px;fill:#0d1117">
+        Bachelor of Science in Computer Science
+      </text>
+      <text x="0" y="38" style="font:400 13px 'Segoe UI',sans-serif;fill:#57606a">
+        Don Mariano Marcos Memorial State University &#8212; South La Union Campus (DMMMSU-SLUC)
+      </text>
+      <text x="0" y="58" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">
+        CLASS OF 2022 &#8211; 2026 <tspan fill="#d0d7de">&#183;</tspan> BAGUIO / LA UNION, PH
+      </text>
+    </g>
   </g>
 
-  <line x1="35" y1="88" x2="825" y2="88" stroke="#eaeef2" stroke-width="1"/>
+  <!-- Divider -->
+  <line x1="25" y1="102" x2="835" y2="102" stroke="#eaeef2" stroke-width="1"/>
 
-  <g transform="translate(35, 110)">
-    <rect width="130" height="24" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="16" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">CREDENTIALS</text>
-    <text x="145" y="16" style="font:500 12.5px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      ITPEC IP Passport <tspan fill="#afb8c1">&#183;</tspan> Scrum Foundation Professional (SFPC&#8482;) <tspan fill="#afb8c1">&#183;</tspan> Intro to NLP
-    </text>
+  <!-- Professional Credentials Cards -->
+  <!-- Card 1: ITPEC -->
+  <g transform="translate(25, 116)">
+    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">ITPEC IP Passport</text>
+    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">PhilNITS Foundation &#183; ITPEC</text>
+    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ IT PASSPORT CERTIFIED ]</text>
+  </g>
+
+  <!-- Card 2: Scrum -->
+  <g transform="translate(300, 116)">
+    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">Scrum Foundation (SFPC&#8482;)</text>
+    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">CertiProf &#183; Agile Professional</text>
+    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ SCRUM CERTIFIED ]</text>
+  </g>
+
+  <!-- Card 3: NLP -->
+  <g transform="translate(575, 116)">
+    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">Intro to Natural Language</text>
+    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">Great Learning Academy</text>
+    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ AI &amp; NLP FOUNDATIONS ]</text>
   </g>
 </svg>
