@@ -1,49 +1,114 @@
-<svg width="860" height="220" viewBox="0 0 860 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="220" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<svg width="860" height="245" viewBox="0 0 860 245" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="edu-border-light" x1="0" y1="0" x2="860" y2="245" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d0d7de"/>
+      <stop offset="50%" stop-color="#eaeef2"/>
+      <stop offset="100%" stop-color="#d0d7de"/>
+    </linearGradient>
+    <linearGradient id="scanline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eaeef2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0d1117" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#eaeef2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Academic Degree Section -->
-  <g transform="translate(25, 24)">
-    <rect width="115" height="24" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="57" y="16" text-anchor="middle" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">DEGREE</text>
-    
-    <g transform="translate(135, 0)">
-      <text x="0" y="17" style="font:700 16px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;letter-spacing:0.5px;fill:#0d1117">
-        Bachelor of Science in Computer Science
-      </text>
-      <text x="0" y="38" style="font:400 13px 'Segoe UI',sans-serif;fill:#57606a">
-        Don Mariano Marcos Memorial State University &#8212; South La Union Campus (DMMMSU-SLUC)
-      </text>
-      <text x="0" y="58" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">
-        CLASS OF 2022 &#8211; 2026 <tspan fill="#d0d7de">&#183;</tspan> BAGUIO / LA UNION, PH
-      </text>
-    </g>
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.8); }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-350px); }
+      100% { transform: translateX(860px); }
+    }
+    .status-dot {
+      animation: pulse 2.2s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .beam {
+      animation: sweep 4.5s linear infinite;
+    }
+  </style>
+
+  <!-- Outer Card Container -->
+  <rect width="860" height="245" rx="10" fill="#ffffff" stroke="url(#edu-border-light)" stroke-width="1.2"/>
+
+  <!-- Top System Bar -->
+  <circle cx="28" cy="20" r="4" fill="#d0d7de"/>
+  <circle cx="42" cy="20" r="4" fill="#eaeef2"/>
+  <circle cx="56" cy="20" r="4" fill="#eaeef2"/>
+
+  <text x="75" y="24" style="font:600 10.5px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">SYSTEM // ACADEMICS_AND_LICENSURE</text>
+
+  <!-- Degree Row -->
+  <g transform="translate(28, 42)">
+    <text x="0" y="16" style="font:700 16px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;letter-spacing:0.5px;fill:#0d1117">
+      Bachelor of Science in Computer Science
+    </text>
+    <text x="0" y="34" style="font:400 13px 'Segoe UI',sans-serif;fill:#57606a">
+      Don Mariano Marcos Memorial State University &#8212; South La Union Campus (DMMMSU-SLUC)
+    </text>
+    <text x="0" y="49" style="font:500 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#8c959f">
+      CLASS OF 2022 &#8211; 2026 &#183; AGOO / LA UNION, PH &#183; CORE FOCUS: SYSTEMS &amp; WEB ARCHITECTURE
+    </text>
   </g>
 
-  <!-- Divider -->
-  <line x1="25" y1="102" x2="835" y2="102" stroke="#eaeef2" stroke-width="1"/>
-
-  <!-- Professional Credentials Cards -->
-  <!-- Card 1: ITPEC -->
-  <g transform="translate(25, 116)">
-    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">ITPEC IP Passport</text>
-    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">PhilNITS Foundation &#183; ITPEC</text>
-    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ IT PASSPORT CERTIFIED ]</text>
+  <!-- Divider Line with Sweeping Beam -->
+  <line x1="20" y1="104" x2="840" y2="104" stroke="#eaeef2" stroke-width="1"/>
+  <g clip-path="url(#edu-divider-clip-light)">
+    <clipPath id="edu-divider-clip-light">
+      <rect x="20" y="103" width="820" height="2"/>
+    </clipPath>
+    <rect class="beam" x="0" y="103" width="300" height="2" fill="url(#scanline-light)"/>
   </g>
 
-  <!-- Card 2: Scrum -->
-  <g transform="translate(300, 116)">
-    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">Scrum Foundation (SFPC&#8482;)</text>
-    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">CertiProf &#183; Agile Professional</text>
-    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ SCRUM CERTIFIED ]</text>
+  <!-- Professional Credentials (3 Distinct Cards) -->
+  <!-- Card 1: ITPEC IP Passport -->
+  <g transform="translate(25, 118)">
+    <rect width="258" height="110" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <!-- Top badge bar -->
+    <circle class="status-dot" cx="16" cy="18" r="3" fill="#0d1117"/>
+    <text x="26" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">GOV'T LICENSED</text>
+    <text x="242" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">ITPEC</text>
+    <line x1="12" y1="30" x2="246" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <!-- Title and Issuer -->
+    <text x="14" y="52" style="font:700 14px 'Segoe UI',sans-serif;letter-spacing:0.3px;fill:#0d1117">ITPEC IP Passport</text>
+    <text x="14" y="71" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">PhilNITS Foundation &#183; ITPEC</text>
+    <rect x="14" y="82" width="230" height="18" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="129" y="94.5" text-anchor="middle" style="font:600 9.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">&#9679; IT PASSPORT CERTIFIED</text>
   </g>
 
-  <!-- Card 3: NLP -->
-  <g transform="translate(575, 116)">
-    <rect width="260" height="84" rx="6" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="16" y="26" style="font:700 13.5px 'Segoe UI',sans-serif;fill:#0d1117">Intro to Natural Language</text>
-    <text x="16" y="47" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">Great Learning Academy</text>
-    <text x="16" y="69" style="font:600 10px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">[ AI &amp; NLP FOUNDATIONS ]</text>
+  <!-- Card 2: Scrum Foundation (SFPC™) -->
+  <g transform="translate(301, 118)">
+    <rect width="258" height="110" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <!-- Top badge bar -->
+    <circle class="status-dot" cx="16" cy="18" r="3" fill="#0d1117"/>
+    <text x="26" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">INTERNATIONAL</text>
+    <text x="242" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">CERTIPROF</text>
+    <line x1="12" y1="30" x2="246" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <!-- Title and Issuer -->
+    <text x="14" y="52" style="font:700 14px 'Segoe UI',sans-serif;letter-spacing:0.3px;fill:#0d1117">Scrum Foundation (SFPC&#8482;)</text>
+    <text x="14" y="71" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">CertiProf &#183; Professional Cert</text>
+    <rect x="14" y="82" width="230" height="18" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="129" y="94.5" text-anchor="middle" style="font:600 9.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">&#9679; AGILE &amp; SCRUM CERTIFIED</text>
+  </g>
+
+  <!-- Card 3: Intro to NLP -->
+  <g transform="translate(577, 118)">
+    <rect width="258" height="110" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <!-- Top badge bar -->
+    <circle class="status-dot" cx="16" cy="18" r="3" fill="#0d1117"/>
+    <text x="26" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">AI SPECIALIZATION</text>
+    <text x="242" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">ACADEMY</text>
+    <line x1="12" y1="30" x2="246" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <!-- Title and Issuer -->
+    <text x="14" y="52" style="font:700 14px 'Segoe UI',sans-serif;letter-spacing:0.3px;fill:#0d1117">Intro to Natural Language</text>
+    <text x="14" y="71" style="font:400 12px 'Segoe UI',sans-serif;fill:#57606a">Great Learning Academy</text>
+    <rect x="14" y="82" width="230" height="18" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="129" y="94.5" text-anchor="middle" style="font:600 9.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">&#9679; AI &amp; NLP FOUNDATIONS</text>
   </g>
 </svg>

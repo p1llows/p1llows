@@ -1,52 +1,290 @@
-<svg width="860" height="280" viewBox="0 0 860 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="280" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+<svg width="860" height="290" viewBox="0 0 860 290" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="stack-border-light" x1="0" y1="0" x2="860" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d0d7de"/>
+      <stop offset="50%" stop-color="#eaeef2"/>
+      <stop offset="100%" stop-color="#d0d7de"/>
+    </linearGradient>
+    <linearGradient id="scanline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eaeef2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0d1117" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#eaeef2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
 
-  <!-- Row 1: Languages -->
-  <g transform="translate(30, 24)">
-    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">LANGUAGES</text>
-    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      PHP <tspan fill="#afb8c1">&#183;</tspan> TypeScript <tspan fill="#afb8c1">&#183;</tspan> JavaScript <tspan fill="#afb8c1">&#183;</tspan> SQL <tspan fill="#afb8c1">&#183;</tspan> Bash <tspan fill="#afb8c1">&#183;</tspan> HTML5 <tspan fill="#afb8c1">&#183;</tspan> CSS3
-    </text>
+  <style>
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.35; transform: scale(0.8); } }
+    @keyframes sweep { 0% { transform: translateX(-350px); } 100% { transform: translateX(860px); } }
+    .status-dot { animation: pulse 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .beam { animation: sweep 4.5s linear infinite; }
+  </style>
+
+  <!-- Outer Card Container -->
+  <rect width="860" height="290" rx="10" fill="#ffffff" stroke="url(#stack-border-light)" stroke-width="1.2"/>
+
+  <!-- Top System Bar (No pill) -->
+  <circle cx="28" cy="20" r="4" fill="#d0d7de"/>
+  <circle cx="42" cy="20" r="4" fill="#eaeef2"/>
+  <circle cx="56" cy="20" r="4" fill="#eaeef2"/>
+
+  <text x="75" y="24" style="font:600 10.5px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">REGISTRY // TECH_STACK_MATRIX</text>
+
+  <!-- Divider Line with Sweeping Beam -->
+  <line x1="20" y1="36" x2="840" y2="36" stroke="#eaeef2" stroke-width="1"/>
+  <g clip-path="url(#stack-clip-light)">
+    <clipPath id="stack-clip-light">
+      <rect x="20" y="35" width="820" height="2"/>
+    </clipPath>
+    <rect class="beam" x="0" y="35" width="300" height="2" fill="url(#scanline-light)"/>
   </g>
-  <line x1="30" y1="64" x2="830" y2="64" stroke="#eaeef2" stroke-width="1"/>
 
-  <!-- Row 2: Backend -->
-  <g transform="translate(30, 76)">
-    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">BACKEND</text>
-    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      Laravel <tspan fill="#afb8c1">&#183;</tspan> Node.js <tspan fill="#afb8c1">&#183;</tspan> Express.js <tspan fill="#afb8c1">&#183;</tspan> RESTful APIs <tspan fill="#afb8c1">&#183;</tspan> Blade
-    </text>
+  <!-- Row 1: LANGUAGES -->
+  <g transform="translate(25, 48)">
+    <!-- Category Badge -->
+    <rect width="130" height="28" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="14" cy="14" r="2.5" fill="#0d1117"/>
+    <text x="72" y="18" text-anchor="middle" style="font:700 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#0d1117">LANGUAGES</text>
+
+    <!-- Stack Items with Icons -->
+    <g transform="translate(142, 1)">
+      <rect width="56" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <ellipse cx="7" cy="7" rx="6.5" ry="4.5" fill="none" stroke="currentColor" stroke-width="1"/><text x="7" y="9.2" text-anchor="middle" style="font:800 6px sans-serif;letter-spacing:-0.2px" fill="currentColor">php</text>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">PHP</text>
+    </g>
+    <g transform="translate(204, 1)">
+      <rect width="103" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <rect x="0.5" y="0.5" width="13" height="13" rx="2" fill="currentColor" fill-opacity="0.12" stroke="currentColor" stroke-width="1"/><text x="7" y="10" text-anchor="middle" style="font:800 7.5px 'Segoe UI',sans-serif" fill="currentColor">TS</text>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">TypeScript</text>
+    </g>
+    <g transform="translate(313, 1)">
+      <rect width="103" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <rect x="0.5" y="0.5" width="13" height="13" rx="2" fill="currentColor" fill-opacity="0.12" stroke="currentColor" stroke-width="1"/><text x="7" y="10" text-anchor="middle" style="font:800 7.5px 'Segoe UI',sans-serif" fill="currentColor">JS</text>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">JavaScript</text>
+    </g>
+    <g transform="translate(422, 1)">
+      <rect width="56" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <ellipse cx="7" cy="3.5" rx="5.5" ry="1.8" fill="none" stroke="currentColor" stroke-width="1"/><path d="M1.5 3.5v3.5c0 .9 2.5 1.8 5.5 1.8s5.5-.9 5.5-1.8V3.5 M1.5 7v3.5c0 .9 2.5 1.8 5.5 1.8s5.5-.9 5.5-1.8V7" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">SQL</text>
+    </g>
+    <g transform="translate(484, 1)">
+      <rect width="63" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <rect x="0.5" y="1" width="13" height="11" rx="2" fill="none" stroke="currentColor" stroke-width="1"/><path d="M3 4.5l2.5 2L3 8.5 M7.5 8.5h3" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linecap="round"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Bash</text>
+    </g>
+    <g transform="translate(553, 1)">
+      <rect width="69" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="1.5,1 12.5,1 11.5,11.5 7,13 2.5,11.5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M7 3.5h3.2l-.3 3H7v2.2l1.8-.5.1-1h1.3l-.2 2.2L7 11z" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">HTML5</text>
+    </g>
+    <g transform="translate(628, 1)">
+      <rect width="63" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="1.5,1 12.5,1 11.5,11.5 7,13 2.5,11.5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M7 3.5h3.2l-.2 2H7v1.8h2.8l-.3 2.8L7 11z" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">CSS3</text>
+    </g>
   </g>
-  <line x1="30" y1="116" x2="830" y2="116" stroke="#eaeef2" stroke-width="1"/>
+  <line x1="25" y1="84" x2="835" y2="84" stroke="#eaeef2" stroke-width="1"/>
 
-  <!-- Row 3: Frontend -->
-  <g transform="translate(30, 128)">
-    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">FRONTEND</text>
-    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      React <tspan fill="#afb8c1">&#183;</tspan> Next.js <tspan fill="#afb8c1">&#183;</tspan> Vue.js <tspan fill="#afb8c1">&#183;</tspan> Quasar <tspan fill="#afb8c1">&#183;</tspan> Tailwind CSS <tspan fill="#afb8c1">&#183;</tspan> Vite
-    </text>
+  <!-- Row 2: BACKEND -->
+  <g transform="translate(25, 92)">
+    <!-- Category Badge -->
+    <rect width="130" height="28" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="14" cy="14" r="2.5" fill="#0d1117"/>
+    <text x="72" y="18" text-anchor="middle" style="font:700 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#0d1117">BACKEND</text>
+
+    <!-- Stack Items with Icons -->
+    <g transform="translate(142, 1)">
+      <rect width="83" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M7 1l5 2.8v5.6L7 12.2 2 9.4V3.8z" fill="none" stroke="currentColor" stroke-width="1"/><path d="M7 1v11.2 M2 3.8L7 6.6l5-2.8" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Laravel</text>
+    </g>
+    <g transform="translate(231, 1)">
+      <rect width="83" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="7,1 12.5,4 12.5,10 7,13 1.5,10 1.5,4" fill="none" stroke="currentColor" stroke-width="1"/><path d="M4.5 9.5V4.5l5 5V4.5" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Node.js</text>
+    </g>
+    <g transform="translate(320, 1)">
+      <rect width="103" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <text x="7" y="10" text-anchor="middle" style="font:800 8.5px 'Segoe UI',sans-serif;font-style:italic" fill="currentColor">ex</text>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Express.js</text>
+    </g>
+    <g transform="translate(429, 1)">
+      <rect width="97" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <circle cx="3" cy="7" r="1.8" fill="currentColor"/><circle cx="11" cy="3.5" r="1.8" fill="currentColor"/><circle cx="11" cy="10.5" r="1.8" fill="currentColor"/><line x1="3" y1="7" x2="11" y2="3.5" stroke="currentColor" stroke-width="1"/><line x1="3" y1="7" x2="11" y2="10.5" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">REST APIs</text>
+    </g>
+    <g transform="translate(532, 1)">
+      <rect width="69" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <text x="7" y="10" text-anchor="middle" style="font:700 8.5px ui-monospace,monospace" fill="currentColor">{ }</text>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Blade</text>
+    </g>
   </g>
-  <line x1="30" y1="168" x2="830" y2="168" stroke="#eaeef2" stroke-width="1"/>
+  <line x1="25" y1="128" x2="835" y2="128" stroke="#eaeef2" stroke-width="1"/>
 
-  <!-- Row 4: Data -->
-  <g transform="translate(30, 180)">
-    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">DATA &amp; CACHE</text>
-    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      PostgreSQL <tspan fill="#afb8c1">&#183;</tspan> MySQL <tspan fill="#afb8c1">&#183;</tspan> MariaDB <tspan fill="#afb8c1">&#183;</tspan> MongoDB <tspan fill="#afb8c1">&#183;</tspan> Redis
-    </text>
+  <!-- Row 3: FRONTEND -->
+  <g transform="translate(25, 136)">
+    <!-- Category Badge -->
+    <rect width="130" height="28" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="14" cy="14" r="2.5" fill="#0d1117"/>
+    <text x="72" y="18" text-anchor="middle" style="font:700 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#0d1117">FRONTEND</text>
+
+    <!-- Stack Items with Icons -->
+    <g transform="translate(142, 1)">
+      <rect width="69" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <ellipse cx="7" cy="7" rx="6" ry="2.2" fill="none" stroke="currentColor" stroke-width="1"/><ellipse cx="7" cy="7" rx="6" ry="2.2" transform="rotate(60 7 7)" fill="none" stroke="currentColor" stroke-width="1"/><ellipse cx="7" cy="7" rx="6" ry="2.2" transform="rotate(120 7 7)" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="7" cy="7" r="1.2" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">React</text>
+    </g>
+    <g transform="translate(217, 1)">
+      <rect width="83" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <circle cx="7" cy="7" r="5.8" fill="none" stroke="currentColor" stroke-width="1"/><path d="M4.8 9.8V4.2l5 5.2h.4V4.2" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Next.js</text>
+    </g>
+    <g transform="translate(306, 1)">
+      <rect width="76" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="1,2 7,12 13,2 10,2 7,7.2 4,2" fill="currentColor"/><polygon points="4,2 7,7.2 10,2 8,2 7,3.8 6,2" fill="none" stroke="currentColor" stroke-width="0.5"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Vue.js</text>
+    </g>
+    <g transform="translate(388, 1)">
+      <rect width="117" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M3.8 5.2c.8-1.2 2-1.5 3.2-1.1 1.2.4 1.6 1.5 2.8 1.9.8.2 1.6-.2 2-.6-.6 1.2-1.8 1.6-3 1.2-1.2-.4-1.6-1.5-2.8-1.9-.8-.3-1.6.2-2.2.5z M1.8 8.4c.8-1.2 2-1.5 3.2-1.1 1.2.4 1.6 1.5 2.8 1.9.8.2 1.6-.2 2-.6-.6 1.2-1.8 1.6-3 1.2-1.2-.4-1.6-1.5-2.8-1.9-.8-.3-1.6.2-2.2.5z" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Tailwind CSS</text>
+    </g>
+    <g transform="translate(511, 1)">
+      <rect width="76" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <circle cx="7" cy="7" r="4.2" fill="currentColor"/><ellipse cx="7" cy="7" rx="6" ry="2" transform="rotate(-30 7 7)" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Quasar</text>
+    </g>
+    <g transform="translate(593, 1)">
+      <rect width="63" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="7.5,1 2.5,7 6,7 5,13 11.5,6 8,6" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Vite</text>
+    </g>
   </g>
-  <line x1="30" y1="220" x2="830" y2="220" stroke="#eaeef2" stroke-width="1"/>
+  <line x1="25" y1="172" x2="835" y2="172" stroke="#eaeef2" stroke-width="1"/>
 
-  <!-- Row 5: Infra -->
-  <g transform="translate(30, 232)">
-    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">INFRA &amp; TOOLS</text>
-    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
-      Docker <tspan fill="#afb8c1">&#183;</tspan> Git <tspan fill="#afb8c1">&#183;</tspan> GitHub Actions <tspan fill="#afb8c1">&#183;</tspan> Vercel <tspan fill="#afb8c1">&#183;</tspan> Cloudflare
-    </text>
+  <!-- Row 4: DATA and CACHE -->
+  <g transform="translate(25, 180)">
+    <!-- Category Badge -->
+    <rect width="130" height="28" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="14" cy="14" r="2.5" fill="#0d1117"/>
+    <text x="72" y="18" text-anchor="middle" style="font:700 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#0d1117">DATA &amp; CACHE</text>
+
+    <!-- Stack Items with Icons -->
+    <g transform="translate(142, 1)">
+      <rect width="103" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M2.5 4.5C2.5 2.5 4.5 1 7 1s4.5 1.5 4.5 3.5c0 1.2-.6 2.2-1.5 2.8v3.2c0 1.5-1.5 2.5-3 2.5s-3-1-3-2.5V7.3C3.1 6.7 2.5 5.7 2.5 4.5z" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="5" cy="4.5" r="0.8" fill="currentColor"/><path d="M7 6v4" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">PostgreSQL</text>
+    </g>
+    <g transform="translate(251, 1)">
+      <rect width="69" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M2 10.5c1-3.5 3.5-6.5 7.5-6.5 1.5 0 2.5.5 3 1.5-.5 1-2 2-3.5 2.5-2.5.8-3.5 2.5-4 3.5H2z" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">MySQL</text>
+    </g>
+    <g transform="translate(326, 1)">
+      <rect width="83" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <ellipse cx="7" cy="4" rx="5.5" ry="1.8" fill="none" stroke="currentColor" stroke-width="1"/><path d="M1.5 4v4.5c0 1 2.5 1.8 5.5 1.8s5.5-.8 5.5-1.8V4" fill="none" stroke="currentColor" stroke-width="1"/><path d="M4.5 7.2l2.2 2.2 2.8-2.8" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">MariaDB</text>
+    </g>
+    <g transform="translate(415, 1)">
+      <rect width="83" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M7 1C7 1 3.5 4.8 3.5 7.8c0 2.3 1.6 3.9 3.5 4.2 1.9-.3 3.5-1.9 3.5-4.2C10.5 4.8 7 1 7 1z" fill="none" stroke="currentColor" stroke-width="1"/><line x1="7" y1="1.5" x2="7" y2="12" stroke="currentColor" stroke-width="0.9"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">MongoDB</text>
+    </g>
+    <g transform="translate(504, 1)">
+      <rect width="69" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="7,1.5 12.5,4.5 7,7.5 1.5,4.5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M1.5 6.5l5.5 3 5.5-3 M1.5 9.5l5.5 3 5.5-3" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Redis</text>
+    </g>
+  </g>
+  <line x1="25" y1="216" x2="835" y2="216" stroke="#eaeef2" stroke-width="1"/>
+
+  <!-- Row 5: INFRA and TOOLS -->
+  <g transform="translate(25, 224)">
+    <!-- Category Badge -->
+    <rect width="130" height="28" rx="5" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="14" cy="14" r="2.5" fill="#0d1117"/>
+    <text x="72" y="18" text-anchor="middle" style="font:700 10.5px ui-monospace,monospace;letter-spacing:1.5px;fill:#0d1117">INFRA &amp; TOOLS</text>
+
+    <!-- Stack Items with Icons -->
+    <g transform="translate(142, 1)">
+      <rect width="76" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <rect x="3" y="4" width="1.8" height="1.8" fill="currentColor"/><rect x="5.5" y="4" width="1.8" height="1.8" fill="currentColor"/><rect x="8" y="4" width="1.8" height="1.8" fill="currentColor"/><rect x="5.5" y="1.5" width="1.8" height="1.8" fill="currentColor"/><path d="M1 7h11.5c0 2.2-1.3 4-4 4-2 0-3-.7-4-1.3C3.5 9.2 2.5 9.2 1 8.5V7z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Docker</text>
+    </g>
+    <g transform="translate(224, 1)">
+      <rect width="56" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <rect x="2.5" y="2.5" width="9" height="9" rx="1.5" transform="rotate(45 7 7)" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="7" cy="4.8" r="1" fill="currentColor"/><circle cx="4.8" cy="9.2" r="1" fill="currentColor"/><circle cx="9.2" cy="7" r="1" fill="currentColor"/><path d="M7 4.8v2.2m0 0l2.2 0m-2.2 0L4.8 9.2" stroke="currentColor" stroke-width="0.9"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Git</text>
+    </g>
+    <g transform="translate(286, 1)">
+      <rect width="131" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <circle cx="7" cy="7" r="5.2" fill="none" stroke="currentColor" stroke-width="1"/><polygon points="5.5,4.5 9.8,7 5.5,9.5" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">GitHub Actions</text>
+    </g>
+    <g transform="translate(423, 1)">
+      <rect width="76" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <polygon points="7,2 12.5,12 1.5,12" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Vercel</text>
+    </g>
+    <g transform="translate(505, 1)">
+      <rect width="103" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+      <g transform="translate(6, 6)" color="#0d1117">
+        <path d="M10.8 5.5a2.8 2.8 0 00-2.6 1.8 2 2 0 00-1.6-.6 2 2 0 00-1.9 1.4A2 2 0 002.5 10a2 2 0 002 2h6.5a2 2 0 002-2 2 2 0 00-1.5-1.9 2.8 2.8 0 00-.7-2.6z" fill="currentColor"/>
+      </g>
+      <text x="26" y="17" style="font:600 11px ui-monospace,monospace;fill:#24292f">Cloudflare</text>
+    </g>
   </g>
 </svg>

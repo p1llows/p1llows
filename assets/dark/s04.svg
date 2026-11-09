@@ -1,6 +1,10 @@
 <svg width="860" height="48" viewBox="0 0 860 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <style>
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.3; transform: scale(0.8); } }
+    .pulse-dot { animation: pulse 2.2s ease-in-out infinite; transform-origin: 845px 24px; }
+  </style>
   <text x="10" y="28" style="font:500 12px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:2px;fill:#7d8590">// 04</text>
   <text x="58" y="28" style="font:700 13px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3px;fill:#f0f6fc">EDUCATION &amp; CREDENTIALS</text>
-  <line x1="305" y1="24" x2="840" y2="24" stroke="#21262d" stroke-width="1"/>
-  <circle cx="845" cy="24" r="2" fill="#30363d"/>
+  <line x1="305" y1="24" x2="838" y2="24" stroke="#21262d" stroke-width="1"/>
+  <circle class="pulse-dot" cx="845" cy="24" r="3" fill="#f0f6fc"/>
 </svg>

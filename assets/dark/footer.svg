@@ -1,7 +1,64 @@
-<svg width="860" height="110" viewBox="0 0 860 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
-  <line x1="20" y1="20" x2="840" y2="20" stroke="#21262d" stroke-width="1"/>
-  <text x="430" y="46" text-anchor="middle" style="font:600 11px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3px;fill:#8b949e">OPEN TO WORK &#183; COLLABORATIONS &#183; PRODUCTION-GRADE PROJECTS</text>
-  <text x="430" y="74" text-anchor="middle" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;fill:#f0f6fc">jewelramirez.dev@gmail.com</text>
-  <text x="430" y="94" text-anchor="middle" style="font:400 10px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:2px;fill:#6e7681">BAGUIO CITY, PH &#183; SYSTEM SHUTDOWN // STANDBY</text>
+<svg width="860" height="120" viewBox="0 0 860 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="footer-border-dark" x1="0" y1="0" x2="860" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="50%" stop-color="#21262d"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+    <linearGradient id="scanline-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0f6fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#21262d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.8); }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-350px); }
+      100% { transform: translateX(860px); }
+    }
+    .status-dot {
+      animation: pulse 2.2s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .beam {
+      animation: sweep 4.5s linear infinite;
+    }
+  </style>
+
+  <!-- Outer Card Container -->
+  <rect width="860" height="120" rx="10" fill="#0d1117" stroke="url(#footer-border-dark)" stroke-width="1.2"/>
+
+  <!-- Top System Bar -->
+  <circle cx="28" cy="18" r="3.5" fill="#30363d"/>
+  <circle cx="40" cy="18" r="3.5" fill="#21262d"/>
+  <circle cx="52" cy="18" r="3.5" fill="#21262d"/>
+
+  <text x="68" y="21" style="font:600 10px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">SYSTEM // END_OF_TRANSMISSION</text>
+
+
+  <!-- Divider Line with Sweeping Beam -->
+  <line x1="20" y1="32" x2="840" y2="32" stroke="#21262d" stroke-width="1"/>
+  <g clip-path="url(#footer-divider-clip-dark)">
+    <clipPath id="footer-divider-clip-dark">
+      <rect x="20" y="31" width="820" height="2"/>
+    </clipPath>
+    <rect class="beam" x="0" y="31" width="300" height="2" fill="url(#scanline-dark)"/>
+  </g>
+
+  <!-- Main Contact Line -->
+  <text x="430" y="58" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:3px;fill:#8b949e">
+    OPEN TO WORK &#183; COLLABORATIONS &#183; PRODUCTION ARCHITECTURE
+  </text>
+  <text x="430" y="85" text-anchor="middle" style="font:700 18px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;fill:#f0f6fc">
+    jewelramirez.dev@gmail.com
+  </text>
+  <text x="430" y="104" text-anchor="middle" style="font:500 10px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">
+    BAGUIO CITY, PH &#183; SYSTEM ON STANDBY // 2026
+  </text>
 </svg>

@@ -1,44 +1,124 @@
-<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+<svg width="860" height="350" viewBox="0 0 860 350" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="prj-border-light" x1="0" y1="0" x2="860" y2="350" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#d0d7de"/>
+      <stop offset="50%" stop-color="#eaeef2"/>
+      <stop offset="100%" stop-color="#d0d7de"/>
+    </linearGradient>
+    <linearGradient id="scanline-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#eaeef2" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#0d1117" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#eaeef2" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(0.8); }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-350px); }
+      100% { transform: translateX(860px); }
+    }
+    .status-dot {
+      animation: pulse 2.2s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .beam {
+      animation: sweep 4.5s linear infinite;
+    }
+  </style>
+
+  <!-- Outer Card Container -->
+  <rect width="860" height="350" rx="10" fill="#ffffff" stroke="url(#prj-border-light)" stroke-width="1.2"/>
+
+  <!-- Top System Bar -->
+  <circle cx="28" cy="20" r="4" fill="#d0d7de"/>
+  <circle cx="42" cy="20" r="4" fill="#eaeef2"/>
+  <circle cx="56" cy="20" r="4" fill="#eaeef2"/>
+
+  <text x="75" y="24" style="font:600 10.5px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">MODULE // PRODUCTION_PROJECTS_SHOWCASE</text>
+
+
+  <!-- Divider Line with Sweeping Beam -->
+  <line x1="20" y1="36" x2="840" y2="36" stroke="#eaeef2" stroke-width="1"/>
+  <g clip-path="url(#prj-divider-clip-light)">
+    <clipPath id="prj-divider-clip-light">
+      <rect x="20" y="35" width="820" height="2"/>
+    </clipPath>
+    <rect class="beam" x="0" y="35" width="300" height="2" fill="url(#scanline-light)"/>
+  </g>
+
   <!-- Card 1: NL2SQLViz -->
-  <g transform="translate(25, 20)">
-    <rect width="395" height="125" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">NL2SQLViz</text>
-    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Natural language &#8594; SQL queries &amp; visual charts</text>
-    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#8c959f">Interactive analytics &amp; automated database reporting</text>
-    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+  <g transform="translate(25, 48)">
+    <rect width="395" height="136" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="18" cy="18" r="3" fill="#0d1117"/>
+    <text x="28" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">LIVE DEMO // AI-POWERED</text>
+    <text x="378" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">PRJ-01</text>
+    <line x1="14" y1="30" x2="381" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">NL2SQLViz</text>
+    <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Natural language &#8594; SQL queries &amp; visual charts</text>
+    <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Interactive analytics &amp; automated database reporting</text>
+    
+    <rect x="16" y="104" width="220" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ Vue.js ]  [ Quasar ]  [ SQL ]
     </text>
   </g>
 
   <!-- Card 2: CSMS -->
-  <g transform="translate(440, 20)">
-    <rect width="395" height="125" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">CSMS</text>
-    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Community Service Monitoring System</text>
-    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#8c959f">Service hours logging, workflow tracking &amp; audit trails</text>
-    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+  <g transform="translate(440, 48)">
+    <rect width="395" height="136" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="18" cy="18" r="3" fill="#0d1117"/>
+    <text x="28" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">ENTERPRISE WORKFLOW</text>
+    <text x="378" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">PRJ-02</text>
+    <line x1="14" y1="30" x2="381" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">CSMS</text>
+    <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Community Service Monitoring System</text>
+    <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Service hours logging, workflow tracking &amp; audit trails</text>
+    
+    <rect x="16" y="104" width="270" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ PostgreSQL ]  [ Express.js ]  [ Node.js ]
     </text>
   </g>
 
   <!-- Card 3: Portfolio -->
-  <g transform="translate(25, 165)">
-    <rect width="395" height="125" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Portfolio Website</text>
-    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Personal developer portfolio &amp; project showcase</text>
-    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#8c959f">Fast, responsive UI with clean modern aesthetics</text>
-    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+  <g transform="translate(25, 196)">
+    <rect width="395" height="136" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="18" cy="18" r="3" fill="#0d1117"/>
+    <text x="28" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">PERSONAL SHOWCASE</text>
+    <text x="378" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">PRJ-03</text>
+    <line x1="14" y1="30" x2="381" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Portfolio Website</text>
+    <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Personal developer portfolio &amp; project showcase</text>
+    <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Fast, responsive UI with clean modern aesthetics</text>
+    
+    <rect x="16" y="104" width="250" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ React ]  [ Tailwind CSS ]  [ Vercel ]
     </text>
   </g>
 
   <!-- Card 4: Dessert Diaries -->
-  <g transform="translate(440, 165)">
-    <rect width="395" height="125" rx="6" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Dessert Diaries</text>
-    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Curated recipe sharing &amp; community platform</text>
-    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#8c959f">Recipe publishing, collection bookmarking &amp; search</text>
-    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+  <g transform="translate(440, 196)">
+    <rect width="395" height="136" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <circle class="status-dot" cx="18" cy="18" r="3" fill="#0d1117"/>
+    <text x="28" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">COMMUNITY PLATFORM</text>
+    <text x="378" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">PRJ-04</text>
+    <line x1="14" y1="30" x2="381" y2="30" stroke="#eaeef2" stroke-width="1"/>
+
+    <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Dessert Diaries</text>
+    <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Curated recipe sharing &amp; community platform</text>
+    <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Recipe publishing, collection bookmarking &amp; search</text>
+    
+    <rect x="16" y="104" width="260" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ MongoDB ]  [ Express.js ]  [ Node.js ]
     </text>
   </g>
