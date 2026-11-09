@@ -52,6 +52,9 @@ jobs:
           path: profile/top-langs-light.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Format Top Languages to matching monochrome cards
+        run: node scripts/format-top-langs.js
+
       - name: Bust cache on live-hosted images
         run: |
           TODAY=$(date +%Y-%m-%d)

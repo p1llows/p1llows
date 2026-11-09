@@ -58,12 +58,14 @@
 
 <br/>
 
-**Quick Launch &amp; Project Demos**  
-[🧠 NL2SQLViz](https://jewelramirez.vercel.app/) &nbsp;·&nbsp; [🤝 CSMS](https://jewelramirez.vercel.app/) &nbsp;·&nbsp; [🌐 Portfolio Website](https://jewelramirez.vercel.app/) &nbsp;·&nbsp; [🍰 Dessert Diaries](https://dessert-diaries.vercel.app/)
+<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/NL2SQLViz-DEMO_%E2%86%92-0d1117?style=flat-square&logo=quasar&logoColor=ffffff"/><img src="https://img.shields.io/badge/NL2SQLViz-DEMO_%E2%86%92-ffffff?style=flat-square&logo=quasar&logoColor=000000" alt="NL2SQLViz Demo"/></picture></a>
+<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CSMS-SYSTEM_%E2%86%92-0d1117?style=flat-square&logo=postgresql&logoColor=ffffff"/><img src="https://img.shields.io/badge/CSMS-SYSTEM_%E2%86%92-ffffff?style=flat-square&logo=postgresql&logoColor=000000" alt="CSMS System"/></picture></a>
+<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PORTFOLIO-LIVE_%E2%86%92-0d1117?style=flat-square&logo=vercel&logoColor=ffffff"/><img src="https://img.shields.io/badge/PORTFOLIO-LIVE_%E2%86%92-ffffff?style=flat-square&logo=vercel&logoColor=000000" alt="Portfolio Live"/></picture></a>
+<a href="https://dessert-diaries.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/DESSERT_DIARIES-APP_%E2%86%92-0d1117?style=flat-square&logo=mongodb&logoColor=ffffff"/><img src="https://img.shields.io/badge/DESSERT_DIARIES-APP_%E2%86%92-ffffff?style=flat-square&logo=mongodb&logoColor=000000" alt="Dessert Diaries App"/></picture></a>
 
-<br/>
+<br/><br/>
 
-[**Explore all production projects &amp; live demos on my portfolio →**](https://jewelramirez.vercel.app/)
+<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/ALL_PRODUCTION_PROJECTS-EXPLORE_PORTFOLIO_%E2%86%92-0d1117?style=flat-square&logo=vercel&logoColor=ffffff"/><img src="https://img.shields.io/badge/ALL_PRODUCTION_PROJECTS-EXPLORE_PORTFOLIO_%E2%86%92-ffffff?style=flat-square&logo=vercel&logoColor=000000" alt="Explore all projects"/></picture></a>
 
 </div>
 
@@ -102,8 +104,8 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&amp;bg_color=0d1117&amp;color=f0f6fc&amp;line=c9d1d9&amp;point=ffffff&amp;area=true&amp;area_color=21262d&amp;hide_border=true&amp;radius=8&amp;custom_title=CONTRIBUTION%20TELEMETRY"/>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&amp;bg_color=ffffff&amp;color=0d1117&amp;line=57606a&amp;point=0d1117&amp;area=true&amp;area_color=f6f8fa&amp;hide_border=true&amp;radius=8&amp;custom_title=CONTRIBUTION%20TELEMETRY" width="98.5%" alt="GitHub contribution activity"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&bg_color=00000000&color=e6edf3&line=c9d1d9&point=ffffff&area=true&area_color=21262d&hide_border=true&radius=8&custom_title=CONTRIBUTION%20TELEMETRY"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=p1llows&bg_color=00000000&color=0d1117&line=57606a&point=0d1117&area=true&area_color=f6f8fa&hide_border=true&radius=8&custom_title=CONTRIBUTION%20TELEMETRY" width="98.5%" alt="GitHub contribution activity"/>
 </picture>
 
 <br/><br/>
