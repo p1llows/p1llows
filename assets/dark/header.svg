@@ -27,7 +27,7 @@
     }
     .status-dot {
       animation: pulse 2s ease-in-out infinite;
-      transform-origin: 652px 26px;
+      <!--transform-origin: 652px 26px;-->
     }
     .cursor {
       animation: blink 1s step-end infinite;
