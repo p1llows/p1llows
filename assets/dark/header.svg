@@ -1,6 +1,85 @@
-<svg width="860" height="152" viewBox="0 0 860 152" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="152" fill="#0d1117"/>
-  <text x="430" y="72" text-anchor="middle" style="font:600 40px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;fill:#e6edf3">Jewel Ramirez</text>
-  <text x="430" y="112" text-anchor="middle" style="font:400 12px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:4px;fill:#7d8590">FULL-STACK WEB DEVELOPER · BAGUIO CITY, PH</text>
-  <line x1="396" y1="134" x2="464" y2="134" stroke="#21262d" stroke-width="1" opacity="1"/>
+<svg width="860" height="180" viewBox="0 0 860 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <linearGradient id="header-border-dark" x1="0" y1="0" x2="860" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#30363d"/>
+      <stop offset="50%" stop-color="#21262d"/>
+      <stop offset="100%" stop-color="#30363d"/>
+    </linearGradient>
+    <linearGradient id="scanline-dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21262d" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f0f6fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#21262d" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.8); }
+    }
+    @keyframes blink {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    @keyframes sweep {
+      0% { transform: translateX(-400px); }
+      100% { transform: translateX(860px); }
+    }
+    .status-dot {
+      animation: pulse 2s ease-in-out infinite;
+      transform-origin: 652px 26px;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+      fill: #f0f6fc;
+      font-weight: 300;
+    }
+    .beam {
+      animation: sweep 4s linear infinite;
+    }
+  </style>
+
+  <!-- Background card -->
+  <rect width="860" height="180" rx="10" fill="#0d1117" stroke="url(#header-border-dark)" stroke-width="1.2"/>
+
+  <!-- Top terminal bar -->
+  <circle cx="28" cy="24" r="4.5" fill="#30363d"/>
+  <circle cx="44" cy="24" r="4.5" fill="#21262d"/>
+  <circle cx="60" cy="24" r="4.5" fill="#21262d"/>
+
+  <!-- Center top subtle command text -->
+  <text x="430" y="27" text-anchor="middle" style="font:500 11px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:2px;fill:#6e7681">TERMINAL // SYSTEM.PROFILE</text>
+
+  <!-- Status pill top right with animated pulsing LED -->
+  <g transform="translate(640, 16)">
+    <rect width="195" height="20" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+    <circle class="status-dot" cx="12" cy="10" r="3.5" fill="#f0f6fc"/>
+    <text x="22" y="14" style="font:600 9.5px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:1px;fill:#c9d1d9">AVAILABLE FOR WORK</text>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="20" y1="42" x2="840" y2="42" stroke="#21262d" stroke-width="1"/>
+  
+  <!-- Sweeping scanline light beam -->
+  <g clip-path="url(#divider-clip)">
+    <clipPath id="divider-clip">
+      <rect x="20" y="41" width="820" height="2"/>
+    </clipPath>
+    <rect class="beam" x="0" y="41" width="300" height="2" fill="url(#scanline-dark)"/>
+  </g>
+
+  <!-- Main Name Title with blinking cursor -->
+  <g transform="translate(430, 96)">
+    <text text-anchor="middle" style="font:700 36px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:2px;fill:#f0f6fc">JEWEL RAMIREZ<tspan class="cursor">_</tspan></text>
+  </g>
+
+  <!-- Subtitle -->
+  <text x="430" y="124" text-anchor="middle" style="font:500 12px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3.5px;fill:#8b949e">FULL-STACK WEB DEVELOPER · BAGUIO CITY, PH</text>
+
+  <!-- Tech pills along bottom -->
+  <g transform="translate(195, 142)">
+    <text x="0" y="14" text-anchor="start" style="font:500 11px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:1px;fill:#6e7681">
+      [ <tspan fill="#c9d1d9">LARAVEL</tspan> ]   [ <tspan fill="#c9d1d9">REACT</tspan> ]   [ <tspan fill="#c9d1d9">NEXT.JS</tspan> ]   [ <tspan fill="#c9d1d9">TYPESCRIPT</tspan> ]   [ <tspan fill="#c9d1d9">DOCKER</tspan> ]
+    </text>
+  </g>
 </svg>

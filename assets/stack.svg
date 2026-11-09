@@ -1,19 +1,52 @@
-<svg width="860" height="268" viewBox="0 0 860 268" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="268" fill="#ffffff"/>
-  <line x1="50" y1="30" x2="812" y2="30" stroke="#d0d7de" stroke-width="1" opacity="1"/>
-  <text x="50" y="66" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:2px;fill:#57606a">LANGUAGES</text>
-  <text x="200" y="66" text-anchor="start" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#0d1117">php · javascript · typescript · sql</text>
-  <line x1="50" y1="82" x2="812" y2="82" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
-  <text x="50" y="108" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:2px;fill:#57606a">BACKEND</text>
-  <text x="200" y="108" text-anchor="start" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#0d1117">laravel · php · node · express · rest</text>
-  <line x1="50" y1="124" x2="812" y2="124" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
-  <text x="50" y="150" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:2px;fill:#57606a">FRONTEND</text>
-  <text x="200" y="150" text-anchor="start" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#0d1117">react · next.js · vue · tailwind</text>
-  <line x1="50" y1="166" x2="812" y2="166" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
-  <text x="50" y="192" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:2px;fill:#57606a">DATA</text>
-  <text x="200" y="192" text-anchor="start" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#0d1117">mysql · mariadb · postgresql · redis · mongodb</text>
-  <line x1="50" y1="208" x2="812" y2="208" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
-  <text x="50" y="234" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:2px;fill:#57606a">INFRA</text>
-  <text x="200" y="234" text-anchor="start" style="font:400 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#0d1117">docker · git · vercel · cloudflare · github actions</text>
-  <line x1="50" y1="250" x2="812" y2="250" stroke="#d0d7de" stroke-width="1" opacity="0.5"/>
+<svg width="860" height="260" viewBox="0 0 860 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <rect width="860" height="260" rx="8" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
+
+  <!-- Row 1: Languages -->
+  <g transform="translate(30, 42)">
+    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">LANGUAGES</text>
+    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
+      PHP <tspan fill="#afb8c1">·</tspan> TypeScript <tspan fill="#afb8c1">·</tspan> JavaScript <tspan fill="#afb8c1">·</tspan> SQL <tspan fill="#afb8c1">·</tspan> Bash <tspan fill="#afb8c1">·</tspan> HTML5 <tspan fill="#afb8c1">·</tspan> CSS3
+    </text>
+  </g>
+  <line x1="30" y1="62" x2="830" y2="62" stroke="#eaeef2" stroke-width="1"/>
+
+  <!-- Row 2: Backend -->
+  <g transform="translate(30, 92)">
+    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">BACKEND</text>
+    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
+      Laravel <tspan fill="#afb8c1">·</tspan> Node.js <tspan fill="#afb8c1">·</tspan> Express.js <tspan fill="#afb8c1">·</tspan> RESTful APIs <tspan fill="#afb8c1">·</tspan> Blade
+    </text>
+  </g>
+  <line x1="30" y1="112" x2="830" y2="112" stroke="#eaeef2" stroke-width="1"/>
+
+  <!-- Row 3: Frontend -->
+  <g transform="translate(30, 142)">
+    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">FRONTEND</text>
+    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
+      React <tspan fill="#afb8c1">·</tspan> Next.js <tspan fill="#afb8c1">·</tspan> Vue.js <tspan fill="#afb8c1">·</tspan> Quasar <tspan fill="#afb8c1">·</tspan> Tailwind CSS <tspan fill="#afb8c1">·</tspan> Vite
+    </text>
+  </g>
+  <line x1="30" y1="162" x2="830" y2="162" stroke="#eaeef2" stroke-width="1"/>
+
+  <!-- Row 4: Data -->
+  <g transform="translate(30, 192)">
+    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">DATA &amp; CACHE</text>
+    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
+      PostgreSQL <tspan fill="#afb8c1">·</tspan> MySQL <tspan fill="#afb8c1">·</tspan> MariaDB <tspan fill="#afb8c1">·</tspan> MongoDB <tspan fill="#afb8c1">·</tspan> Redis
+    </text>
+  </g>
+  <line x1="30" y1="212" x2="830" y2="212" stroke="#eaeef2" stroke-width="1"/>
+
+  <!-- Row 5: Infra -->
+  <g transform="translate(30, 242)">
+    <rect width="130" height="26" rx="4" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+    <text x="65" y="17" text-anchor="middle" style="font:600 11px ui-monospace,monospace;letter-spacing:1.5px;fill:#57606a">INFRA &amp; TOOLS</text>
+    <text x="150" y="18" style="font:500 13px ui-monospace,monospace;letter-spacing:0.5px;fill:#24292f">
+      Docker <tspan fill="#afb8c1">·</tspan> Git <tspan fill="#afb8c1">·</tspan> GitHub Actions <tspan fill="#afb8c1">·</tspan> Vercel <tspan fill="#afb8c1">·</tspan> Cloudflare
+    </text>
+  </g>
 </svg>

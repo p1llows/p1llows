@@ -1,13 +1,40 @@
-<svg width="860" height="264" viewBox="0 0 860 264" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="264" fill="#0d1117"/>
-  <text x="50" y="48" text-anchor="start" style="font:400 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">Full-stack developer who enjoys turning ideas into practical products —</text>
-  <text x="50" y="78" text-anchor="start" style="font:400 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">web apps, backend systems, and APIs. CS graduate based in Baguio City, PH.</text>
-  <rect x="50" y="117" width="5" height="5" fill="#7d8590"/>
-  <text x="70" y="126" text-anchor="start" style="font:400 14px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">building full-stack apps with Laravel, React &amp; Next.js</text>
-  <rect x="50" y="147" width="5" height="5" fill="#7d8590"/>
-  <text x="70" y="156" text-anchor="start" style="font:400 14px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">database design, performance &amp; scalable architecture</text>
-  <rect x="50" y="177" width="5" height="5" fill="#7d8590"/>
-  <text x="70" y="186" text-anchor="start" style="font:400 14px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">exploring AI-assisted development &amp; agent workflows</text>
-  <rect x="50" y="207" width="5" height="5" fill="#7d8590"/>
-  <text x="70" y="216" text-anchor="start" style="font:400 14px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">shipping containerized apps with Docker</text>
+<svg width="860" height="230" viewBox="0 0 860 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <rect width="860" height="230" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  
+  <text x="35" y="45" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;fill:#f0f6fc">
+    Full-stack developer architecting production web apps, robust backend APIs &amp; distributed systems.
+  </text>
+  <text x="35" y="72" style="font:400 14px 'Segoe UI',-apple-system,'Helvetica Neue',sans-serif;fill:#8b949e">
+    Computer Science graduate based in Baguio City, Philippines. Passionate about performant architectures and developer tooling.
+  </text>
+
+  <line x1="35" y1="92" x2="825" y2="92" stroke="#161b22" stroke-width="1"/>
+
+  <g transform="translate(35, 118)">
+    <text x="0" y="0" style="font:700 13px ui-monospace,monospace;fill:#f0f6fc">▸</text>
+    <text x="20" y="0" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#c9d1d9">
+      Building scalable full-stack applications with <tspan font-weight="600" fill="#f0f6fc">Laravel, React &amp; Next.js</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(35, 146)">
+    <text x="0" y="0" style="font:700 13px ui-monospace,monospace;fill:#f0f6fc">▸</text>
+    <text x="20" y="0" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#c9d1d9">
+      Relational &amp; NoSQL schema design, query optimization &amp; caching with <tspan font-weight="600" fill="#f0f6fc">PostgreSQL, MySQL &amp; Redis</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(35, 174)">
+    <text x="0" y="0" style="font:700 13px ui-monospace,monospace;fill:#f0f6fc">▸</text>
+    <text x="20" y="0" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#c9d1d9">
+      Researching <tspan font-weight="600" fill="#f0f6fc">AI-assisted software development</tspan>, autonomous agents &amp; LLM workflows
+    </text>
+  </g>
+
+  <g transform="translate(35, 202)">
+    <text x="0" y="0" style="font:700 13px ui-monospace,monospace;fill:#f0f6fc">▸</text>
+    <text x="20" y="0" style="font:400 13.5px 'Segoe UI',sans-serif;fill:#c9d1d9">
+      Shipping containerized cloud deployments with <tspan font-weight="600" fill="#f0f6fc">Docker, Vercel &amp; GitHub Actions</tspan>
+    </text>
+  </g>
 </svg>

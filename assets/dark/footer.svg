@@ -1,5 +1,7 @@
-<svg width="860" height="104" viewBox="0 0 860 104" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="104" fill="#0d1117"/>
-  <text x="430" y="40" text-anchor="middle" style="font:400 12px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:3px;fill:#7d8590">OPEN TO WORK · COLLABORATIONS · INTERESTING WEB PROJECTS</text>
-  <text x="430" y="74" text-anchor="middle" style="font:500 15px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">jewelramirez.dev@gmail.com</text>
+<svg width="860" height="110" viewBox="0 0 860 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <rect width="860" height="110" rx="8" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <line x1="20" y1="20" x2="840" y2="20" stroke="#21262d" stroke-width="1"/>
+  <text x="430" y="46" text-anchor="middle" style="font:600 11px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:3px;fill:#8b949e">OPEN TO WORK · COLLABORATIONS · PRODUCTION-GRADE PROJECTS</text>
+  <text x="430" y="74" text-anchor="middle" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:1px;fill:#f0f6fc">jewelramirez.dev@gmail.com</text>
+  <text x="430" y="94" text-anchor="middle" style="font:400 10px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:2px;fill:#6e7681">BAGUIO CITY, PH · SYSTEM SHUTDOWN // STANDBY</text>
 </svg>

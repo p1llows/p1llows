@@ -1,19 +1,45 @@
-<svg width="860" height="300" viewBox="0 0 860 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
-  <rect width="860" height="300" fill="#0d1117"/>
-  <text x="50" y="70" text-anchor="start" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">NL2SQLViz</text>
-  <text x="50" y="96" text-anchor="start" style="font:400 13px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">natural language → SQL queries &amp; visualizations</text>
-  <text x="50" y="118" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:1px;fill:#7d8590">vue · quasar</text>
-  <text x="456" y="70" text-anchor="start" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">CSMS</text>
-  <text x="456" y="96" text-anchor="start" style="font:400 13px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">community service monitoring system</text>
-  <text x="456" y="118" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:1px;fill:#7d8590">postgresql · express</text>
-  <text x="50" y="200" text-anchor="start" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">Portfolio</text>
-  <text x="50" y="226" text-anchor="start" style="font:400 13px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">personal site &amp; project showcase</text>
-  <text x="50" y="248" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:1px;fill:#7d8590">react · tailwind · vercel</text>
-  <text x="456" y="200" text-anchor="start" style="font:600 16px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#e6edf3">Dessert Diaries</text>
-  <text x="456" y="226" text-anchor="start" style="font:400 13px 'Segoe UI',-apple-system,'Helvetica Neue',Arial,sans-serif;letter-spacing:0px;fill:#7d8590">recipe sharing platform</text>
-  <text x="456" y="248" text-anchor="start" style="font:400 11px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:1px;fill:#7d8590">mongodb · express</text>
-  <line x1="50" y1="20" x2="812" y2="20" stroke="#21262d" stroke-width="1" opacity="1"/>
-  <line x1="50" y1="150" x2="812" y2="150" stroke="#21262d" stroke-width="1" opacity="1"/>
-  <line x1="50" y1="280" x2="812" y2="280" stroke="#21262d" stroke-width="1" opacity="1"/>
-  <text x="430" y="292" text-anchor="middle" style="font:400 11.5px ui-monospace,'Cascadia Code','JetBrains Mono','Fira Code',Consolas,monospace;letter-spacing:1px;fill:#7d8590">live → jewelramirez.vercel.app · dessert-diaries.vercel.app</text>
+<svg width="860" height="320" viewBox="0 0 860 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img">
+  <!-- Card 1: NL2SQLViz -->
+  <g transform="translate(25, 20)">
+    <rect width="395" height="125" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#f0f6fc">NL2SQLViz</text>
+    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#8b949e">Natural language → SQL queries &amp; visual charts</text>
+    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#6e7681">Interactive analytics &amp; automated database reporting</text>
+    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#c9d1d9">
+      [ Vue.js ]  [ Quasar ]  [ SQL ]
+    </text>
+  </g>
+
+  <!-- Card 2: CSMS -->
+  <g transform="translate(440, 20)">
+    <rect width="395" height="125" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#f0f6fc">CSMS</text>
+    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#8b949e">Community Service Monitoring System</text>
+    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#6e7681">Service hours logging, workflow tracking &amp; audit trails</text>
+    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#c9d1d9">
+      [ PostgreSQL ]  [ Express.js ]  [ Node.js ]
+    </text>
+  </g>
+
+  <!-- Card 3: Portfolio -->
+  <g transform="translate(25, 165)">
+    <rect width="395" height="125" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#f0f6fc">Portfolio Website</text>
+    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#8b949e">Personal developer portfolio &amp; project showcase</text>
+    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#6e7681">Fast, responsive UI with clean modern aesthetics</text>
+    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#c9d1d9">
+      [ React ]  [ Tailwind CSS ]  [ Vercel ]
+    </text>
+  </g>
+
+  <!-- Card 4: Dessert Diaries -->
+  <g transform="translate(440, 165)">
+    <rect width="395" height="125" rx="6" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+    <text x="20" y="32" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#f0f6fc">Dessert Diaries</text>
+    <text x="20" y="58" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#8b949e">Curated recipe sharing &amp; community platform</text>
+    <text x="20" y="80" style="font:400 12px 'Segoe UI',sans-serif;fill:#6e7681">Recipe publishing, collection bookmarking &amp; search</text>
+    <text x="20" y="108" style="font:500 11px ui-monospace,monospace;letter-spacing:1px;fill:#c9d1d9">
+      [ MongoDB ]  [ Express.js ]  [ Node.js ]
+    </text>
+  </g>
 </svg>

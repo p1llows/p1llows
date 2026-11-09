@@ -1,0 +1,108 @@
+<svg
+  width="467"
+  height="195"
+  viewBox="0 0 467 195"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-labelledby="descId"
+>
+  <title id="titleId">Jewel Ramirez's Most Used Languages</title>
+  <desc id="descId">TypeScript: 48.4%, PHP: 39.5%, Blade: 10.8%, JavaScript: 0.5%, Other: 0.8%</desc>
+  <style>
+    @keyframes fadeInAnimation {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes growBar {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    .header {
+      font: 600 17px 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+      fill: #f0f6fc;
+      letter-spacing: 0.5px;
+      animation: fadeInAnimation 0.6s ease-in-out forwards;
+    }
+    .lang-name {
+      font: 500 13px ui-monospace, 'Cascadia Code', 'JetBrains Mono', Consolas, monospace;
+      fill: #8b949e;
+    }
+    .lang-pct {
+      font-weight: 700;
+      fill: #f0f6fc;
+    }
+    .card-border {
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .bar-group {
+      transform-origin: 25px 50px;
+      animation: growBar 1s cubic-bezier(0.25, 1, 0.5, 1) forwards 0.2s;
+    }
+    .stagger-1 { animation: fadeInAnimation 0.5s ease-out forwards 0.3s; opacity: 0; }
+    .stagger-2 { animation: fadeInAnimation 0.5s ease-out forwards 0.45s; opacity: 0; }
+    .stagger-3 { animation: fadeInAnimation 0.5s ease-out forwards 0.6s; opacity: 0; }
+    .stagger-4 { animation: fadeInAnimation 0.5s ease-out forwards 0.75s; opacity: 0; }
+    .stagger-5 { animation: fadeInAnimation 0.5s ease-out forwards 0.9s; opacity: 0; }
+    .stagger-6 { animation: fadeInAnimation 0.5s ease-out forwards 1.05s; opacity: 0; }
+  </style>
+
+  <rect
+    x="0.5"
+    y="0.5"
+    rx="8"
+    height="194"
+    width="466"
+    fill="#0d1117"
+    class="card-border"
+  />
+
+  <g transform="translate(25, 32)">
+    <text x="0" y="0" class="header">Most Used Languages</text>
+  </g>
+
+  <!-- Progress Bar (segmented) with scale animation -->
+  <g class="bar-group" transform="translate(25, 50)">
+    <clipPath id="bar-clip">
+      <rect x="0" y="0" width="417" height="9" rx="4.5" />
+    </clipPath>
+    <g clip-path="url(#bar-clip)">
+      <rect x="0" y="0" width="202" height="9" fill="#f0f6fc" />
+      <rect x="202" y="0" width="165" height="9" fill="#8b949e" />
+      <rect x="367" y="0" width="45" height="9" fill="#484f58" />
+      <rect x="412" y="0" width="5" height="9" fill="#30363d" />
+    </g>
+  </g>
+
+  <!-- Language List with staggered entrances -->
+  <g transform="translate(25, 84)">
+    <!-- Column 1 -->
+    <g class="stagger-1" transform="translate(0, 0)">
+      <circle cx="5" cy="5" r="4.5" fill="#f0f6fc" />
+      <text x="18" y="9" class="lang-name">TypeScript <tspan class="lang-pct">48.4%</tspan></text>
+    </g>
+    <g class="stagger-2" transform="translate(0, 30)">
+      <circle cx="5" cy="5" r="4.5" fill="#484f58" />
+      <text x="18" y="9" class="lang-name">Blade <tspan class="lang-pct">10.8%</tspan></text>
+    </g>
+    <g class="stagger-3" transform="translate(0, 60)">
+      <circle cx="5" cy="5" r="4.5" fill="#30363d" />
+      <text x="18" y="9" class="lang-name">Shell / Config <tspan class="lang-pct">0.8%</tspan></text>
+    </g>
+
+    <!-- Column 2 -->
+    <g class="stagger-4" transform="translate(215, 0)">
+      <circle cx="5" cy="5" r="4.5" fill="#8b949e" />
+      <text x="18" y="9" class="lang-name">PHP <tspan class="lang-pct">39.5%</tspan></text>
+    </g>
+    <g class="stagger-5" transform="translate(215, 30)">
+      <circle cx="5" cy="5" r="4.5" fill="#6e7681" />
+      <text x="18" y="9" class="lang-name">JavaScript <tspan class="lang-pct">0.5%</tspan></text>
+    </g>
+    <g class="stagger-6" transform="translate(215, 60)">
+      <circle cx="5" cy="5" r="4.5" fill="#21262d" />
+      <text x="18" y="9" class="lang-name">Dockerfile <tspan class="lang-pct">0.2%</tspan></text>
+    </g>
+  </g>
+</svg>
