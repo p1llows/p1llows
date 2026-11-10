@@ -65,7 +65,12 @@
 
 <br/><br/>
 
-<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/ALL_PRODUCTION_PROJECTS-EXPLORE_PORTFOLIO_%E2%86%92-0d1117?style=flat-square&logo=vercel&logoColor=ffffff"/><img src="https://img.shields.io/badge/ALL_PRODUCTION_PROJECTS-EXPLORE_PORTFOLIO_%E2%86%92-ffffff?style=flat-square&logo=vercel&logoColor=000000" alt="Explore all projects"/></picture></a>
+<a href="https://jewelramirez.vercel.app/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/projects-cta-dark.svg"/>
+    <img src="./assets/projects-cta-light.svg" alt="Explore all production projects" width="860"/>
+  </picture>
+</a>
 
 </div>
 
