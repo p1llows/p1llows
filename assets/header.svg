@@ -13,9 +13,13 @@
   </defs>
 
   <style>
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.8); }
+    @keyframes ping {
+      0%        { transform: scale(1);   opacity: 0.5; }
+      70%, 100% { transform: scale(2.6); opacity: 0; }
+    }
+    @keyframes breathe {
+      0%, 100% { opacity: 1; }
+      50%      { opacity: 0.7; }
     }
     @keyframes blink {
       0%, 49% { opacity: 1; }
@@ -25,9 +29,16 @@
       0% { transform: translateX(-400px); }
       100% { transform: translateX(860px); }
     }
-    .status-dot {
-      animation: pulse 2s ease-in-out infinite;
-      <!-- transform-origin: 652px 26px; -->
+    .status-ring,
+    .status-core {
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+    .status-ring {
+      animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+    }
+    .status-core {
+      animation: breathe 2s ease-in-out infinite;
     }
     .cursor {
       animation: blink 1s step-end infinite;
@@ -36,6 +47,10 @@
     }
     .beam {
       animation: sweep 4s linear infinite;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .status-ring { animation: none; opacity: 0; }
+      .status-core { animation: none; }
     }
   </style>
 
@@ -50,10 +65,11 @@
   <!-- Center top subtle command text -->
   <text x="430" y="27" text-anchor="middle" style="font:500 11px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:2px;fill:#6e7681">TERMINAL // SYSTEM.PROFILE</text>
 
-  <!-- Status pill top right with animated pulsing LED -->
+  <!-- Status pill top right with animated pinging LED -->
   <g transform="translate(640, 16)">
     <rect width="195" height="20" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-    <circle class="status-dot" cx="12" cy="10" r="3.5" fill="#0d1117"/>
+    <circle class="status-ring" cx="12" cy="10" r="3.5" fill="#0d1117"/>
+    <circle class="status-core" cx="12" cy="10" r="3.5" fill="#0d1117"/>
     <text x="22" y="14" style="font:600 9.5px ui-monospace,'Cascadia Code','JetBrains Mono',monospace;letter-spacing:1px;fill:#24292f">AVAILABLE FOR WORK</text>
   </g>
 
