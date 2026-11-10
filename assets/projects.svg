@@ -41,7 +41,6 @@
 
   <text x="75" y="24" style="font:600 10.5px ui-monospace,monospace;letter-spacing:2px;fill:#6e7681">MODULE // PRODUCTION_PROJECTS_SHOWCASE</text>
 
-
   <!-- Divider Line with Sweeping Beam -->
   <line x1="20" y1="36" x2="840" y2="36" stroke="#eaeef2" stroke-width="1"/>
   <g clip-path="url(#prj-divider-clip-light)">
@@ -62,9 +61,8 @@
     <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">NL2SQLViz</text>
     <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Natural language &#8594; SQL queries &amp; visual charts</text>
     <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Interactive analytics &amp; automated database reporting</text>
-    
-    <rect x="16" y="104" width="220" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+
+    <text x="16" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ Vue.js ]  [ Quasar ]  [ SQL ]
     </text>
   </g>
@@ -80,9 +78,8 @@
     <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">CSMS</text>
     <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Community Service Monitoring System</text>
     <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Service hours logging, workflow tracking &amp; audit trails</text>
-    
-    <rect x="16" y="104" width="270" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+
+    <text x="16" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ PostgreSQL ]  [ Express.js ]  [ Node.js ]
     </text>
   </g>
@@ -98,9 +95,8 @@
     <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Portfolio Website</text>
     <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Personal developer portfolio &amp; project showcase</text>
     <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Fast, responsive UI with clean modern aesthetics</text>
-    
-    <rect x="16" y="104" width="250" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+
+    <text x="16" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ React ]  [ Tailwind CSS ]  [ Vercel ]
     </text>
   </g>
@@ -116,9 +112,8 @@
     <text x="16" y="52" style="font:700 15px 'Segoe UI',sans-serif;letter-spacing:0.5px;fill:#0d1117">Dessert Diaries</text>
     <text x="16" y="72" style="font:400 12.5px 'Segoe UI',sans-serif;fill:#57606a">Curated recipe sharing &amp; community platform</text>
     <text x="16" y="90" style="font:400 11.5px 'Segoe UI',sans-serif;fill:#8c959f">Recipe publishing, collection bookmarking &amp; search</text>
-    
-    <rect x="16" y="104" width="260" height="20" rx="4" fill="#ffffff" stroke="#d0d7de" stroke-width="1"/>
-    <text x="24" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
+
+    <text x="16" y="118" style="font:600 10.5px ui-monospace,monospace;letter-spacing:1px;fill:#24292f">
       [ MongoDB ]  [ Express.js ]  [ Node.js ]
     </text>
   </g>
