@@ -69,7 +69,7 @@
     <rect width="258" height="110" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
     <!-- Top badge bar -->
     <circle class="status-dot" cx="16" cy="18" r="3" fill="#0d1117"/>
-    <text x="26" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">NATIONAL ITPEC</text>
+    <text x="26" y="21" style="font:700 9px ui-monospace,monospace;letter-spacing:1px;fill:#57606a">NATIONAL</text>
     <text x="242" y="21" text-anchor="end" style="font:600 9px ui-monospace,monospace;letter-spacing:1px;fill:#8c959f">ITPEC</text>
     <line x1="12" y1="30" x2="246" y2="30" stroke="#eaeef2" stroke-width="1"/>
 
