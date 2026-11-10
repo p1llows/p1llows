@@ -56,13 +56,6 @@
 
 <div align="center">
 
-<br/>
-
-<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/NL2SQLViz-DEMO_%E2%86%92-0d1117?style=flat-square&logo=quasar&logoColor=ffffff"/><img src="https://img.shields.io/badge/NL2SQLViz-DEMO_%E2%86%92-ffffff?style=flat-square&logo=quasar&logoColor=000000" alt="NL2SQLViz Demo"/></picture></a>
-<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/CSMS-SYSTEM_%E2%86%92-0d1117?style=flat-square&logo=postgresql&logoColor=ffffff"/><img src="https://img.shields.io/badge/CSMS-SYSTEM_%E2%86%92-ffffff?style=flat-square&logo=postgresql&logoColor=000000" alt="CSMS System"/></picture></a>
-<a href="https://jewelramirez.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PORTFOLIO-LIVE_%E2%86%92-0d1117?style=flat-square&logo=vercel&logoColor=ffffff"/><img src="https://img.shields.io/badge/PORTFOLIO-LIVE_%E2%86%92-ffffff?style=flat-square&logo=vercel&logoColor=000000" alt="Portfolio Live"/></picture></a>
-<a href="https://dessert-diaries.vercel.app/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/DESSERT_DIARIES-APP_%E2%86%92-0d1117?style=flat-square&logo=mongodb&logoColor=ffffff"/><img src="https://img.shields.io/badge/DESSERT_DIARIES-APP_%E2%86%92-ffffff?style=flat-square&logo=mongodb&logoColor=000000" alt="Dessert Diaries App"/></picture></a>
-
 <br/><br/>
 
 <a href="https://jewelramirez.vercel.app/">
