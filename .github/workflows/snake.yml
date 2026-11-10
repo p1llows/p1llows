@@ -18,14 +18,15 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Generate snake SVG
+      - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=%23c9d1d9&color_dots=%232f363d%2C%234a5158%2C%236a7076%2C%23959ea5%2C%23c9d1d9
+            dist/github-contribution-grid-snake.svg?color_snake=%230d1117&color_dots=%23eaeef2%2C%23c8d0d9%2C%239aa4af%2C%2357606a%2C%230d1117&color_dot_border=%23d0d7de
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%23f0f6fc&color_dots=%23161b22%2C%2330363d%2C%23484f58%2C%238b949e%2C%23f0f6fc&color_dot_border=%2321262d
 
-      - name: Push SVG to output branch
+      - name: Push SVGs to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
